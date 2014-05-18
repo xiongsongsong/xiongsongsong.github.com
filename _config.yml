@@ -1,0 +1,10 @@
+# Site settings
+title: 松松的博客
+email: xiongsongsong@outlook.com
+description: "成长是一种责任。"
+baseurl: ""
+url: "https://xiongsongsong.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

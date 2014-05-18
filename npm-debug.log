@@ -1,0 +1,1137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'cnpm', '-g' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'cnpm', null ]
+5 verbose cache add name=undefined spec="cnpm" args=["cnpm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'cnpm',
+6 verbose parsed url   path: 'cnpm',
+6 verbose parsed url   href: 'cnpm' }
+7 silly lockFile 5c1695da-cnpm cnpm
+8 verbose lock cnpm /Users/xiongsongsong/.npm/5c1695da-cnpm.lock
+9 silly lockFile 5c1695da-cnpm cnpm
+10 silly lockFile 5c1695da-cnpm cnpm
+11 verbose addNamed [ 'cnpm', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c7bab240-cnpm cnpm@
+14 verbose lock cnpm@ /Users/xiongsongsong/.npm/c7bab240-cnpm.lock
+15 silly addNameRange { name: 'cnpm', range: '*', hasData: false }
+16 verbose registry.get cnpm not expired, no request
+17 silly addNameRange number 2 { name: 'cnpm', range: '*', hasData: true }
+18 silly addNameRange versions [ 'cnpm',
+18 silly addNameRange   [ '0.0.0',
+18 silly addNameRange     '0.0.1',
+18 silly addNameRange     '0.0.2',
+18 silly addNameRange     '0.0.3',
+18 silly addNameRange     '0.0.4',
+18 silly addNameRange     '0.0.5',
+18 silly addNameRange     '0.0.6',
+18 silly addNameRange     '0.0.7',
+18 silly addNameRange     '0.0.8',
+18 silly addNameRange     '0.0.9',
+18 silly addNameRange     '0.0.10',
+18 silly addNameRange     '0.0.11',
+18 silly addNameRange     '0.0.12',
+18 silly addNameRange     '0.0.13',
+18 silly addNameRange     '0.0.14',
+18 silly addNameRange     '0.0.15',
+18 silly addNameRange     '0.0.16',
+18 silly addNameRange     '0.0.17',
+18 silly addNameRange     '0.0.18',
+18 silly addNameRange     '0.0.19',
+18 silly addNameRange     '0.0.20',
+18 silly addNameRange     '0.0.21',
+18 silly addNameRange     '0.0.22',
+18 silly addNameRange     '0.0.23',
+18 silly addNameRange     '0.0.24',
+18 silly addNameRange     '0.0.25',
+18 silly addNameRange     '0.0.26',
+18 silly addNameRange     '0.0.27',
+18 silly addNameRange     '0.0.28',
+18 silly addNameRange     '0.0.29',
+18 silly addNameRange     '0.0.30',
+18 silly addNameRange     '0.0.31',
+18 silly addNameRange     '0.0.32',
+18 silly addNameRange     '0.0.33',
+18 silly addNameRange     '0.0.34',
+18 silly addNameRange     '0.0.35',
+18 silly addNameRange     '0.1.0',
+18 silly addNameRange     '0.1.1',
+18 silly addNameRange     '0.1.2',
+18 silly addNameRange     '0.1.3' ] ]
+19 verbose addNamed [ 'cnpm', '0.1.3' ]
+20 verbose addNamed [ '0.1.3', '0.1.3' ]
+21 silly lockFile 5b367ade-cnpm-0-1-3 cnpm@0.1.3
+22 verbose lock cnpm@0.1.3 /Users/xiongsongsong/.npm/5b367ade-cnpm-0-1-3.lock
+23 silly lockFile 5b367ade-cnpm-0-1-3 cnpm@0.1.3
+24 silly lockFile 5b367ade-cnpm-0-1-3 cnpm@0.1.3
+25 silly lockFile c7bab240-cnpm cnpm@
+26 silly lockFile c7bab240-cnpm cnpm@
+27 silly resolved [ { name: 'cnpm',
+27 silly resolved     version: '0.1.3',
+27 silly resolved     description: 'cnpm: npm client for http://npm.taobao.org',
+27 silly resolved     main: 'bin/cnpm',
+27 silly resolved     scripts: { test: 'make test-all' },
+27 silly resolved     preferGlobal: true,
+27 silly resolved     bin:
+27 silly resolved      { cnpm: './bin/cnpm',
+27 silly resolved        'cnpm-check': './bin/cnpm-check',
+27 silly resolved        'cnpm-sync': './bin/cnpm-sync',
+27 silly resolved        'cnpm-web': './bin/cnpm-web',
+27 silly resolved        'cnpm-user': './bin/cnpm-user',
+27 silly resolved        'cnpm-doc': './bin/cnpm-doc',
+27 silly resolved        'cnpm-search': './bin/cnpm-search' },
+27 silly resolved     dependencies:
+27 silly resolved      { 'auto-correct': '~1.0.0',
+27 silly resolved        bagpipe: '~0.3.5',
+27 silly resolved        colors: '~0.6.2',
+27 silly resolved        commander: '~2.2.0',
+27 silly resolved        debug: '~0.8.1',
+27 silly resolved        giturl: '~0.0.3',
+27 silly resolved        npm: '~1.4.10',
+27 silly resolved        'npm-request': '~0.0.4',
+27 silly resolved        open: '~0.0.5',
+27 silly resolved        urllib: '~0.5.15' },
+27 silly resolved     devDependencies: { autod: '*', jshint: '*' },
+27 silly resolved     homepage: 'https://github.com/cnpm/cnpm',
+27 silly resolved     repository:
+27 silly resolved      { type: 'git',
+27 silly resolved        url: 'git://github.com/cnpm/cnpm.git',
+27 silly resolved        web: 'https://github.com/cnpm/cnpm' },
+27 silly resolved     bugs:
+27 silly resolved      { url: 'https://github.com/cnpm/cnpm/issues',
+27 silly resolved        email: 'fengmk2@gmail.com' },
+27 silly resolved     keywords: [ 'cnpm' ],
+27 silly resolved     engines: { node: '>= 0.8.0' },
+27 silly resolved     author:
+27 silly resolved      { name: 'fengmk2',
+27 silly resolved        email: 'fengmk2@gmail.com',
+27 silly resolved        url: 'http://fengmk2.github.com' },
+27 silly resolved     license: 'MIT',
+27 silly resolved     contributors: [ [Object], [Object], [Object] ],
+27 silly resolved     readme: 'cnpm\n=======\n\n[![NPM](https://nodei.co/npm/cnpm.png?downloads=true&stars=true)](https://nodei.co/npm/cnpm/)\n\n![logo](https://raw.github.com/cnpm/cnpmjs.org/master/logo.png)\n\ncnpm: npm client for [cnpmjs.org](http://cnpmjs.org)\n\n## Install\n\n```bash\n$ npm install cnpm -g --registry=http://r.cnpmjs.org\n```\n\nIf you\'re in China, maybe you should download it from our China CDN:\n\n```bash\n$ wget http://dist.u.qiniudn.com/cnpm/cnpm-latest.tgz\n$ tar zxvf cnpm-latest.tgz\n$ ./cnpm/bin/cnpm install anything\n```\n\n## Usage\n\nSupport all commands just like `npm`.\n\n### Sync packages from `npm`\n\n```bash\n$ cnpm sync [moduleName]\n```\n\n### Open package document or git web url\n\n```bash\n$ cnpm doc [name]\n$ cnpm doc -g [name] # open git web url directly\n```\n\n## Build your own private registry npm cli\n\n```bash\n$ npm install cnpm -g\n\n# then alias it\n$ alias tnpm=\'cnpm --registry=http://registry.npm.example.com \\\n --disturl=http://dist.cnpmjs.org \\\n --registryweb=http://npm.example.com \\\n --cache=$HOME/.npm/.cache/tnpm \\\n --userconfig=$HOME/.tnpmrc\'\n\n# or put this in your .zshrc / .bashrc\n$ echo "alias tnpm=\'cnpm --registry=http://registry.npm.example.com \\\n --disturl=http://dist.cnpmjs.org \\\n --registryweb=http://npm.example.com \\\n --cache=$HOME/.npm/.cache/tnpm \\\n --userconfig=$HOME/.tnpmrc\'" >> $HOME/.zshrc && source $HOME/.zshrc\n```\n\n## License\n\n(The MIT License)\n\nCopyright(c) cnpmjs.org and other contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+27 silly resolved     readmeFilename: 'README.md',
+27 silly resolved     _id: 'cnpm@0.1.3',
+27 silly resolved     _shasum: '47497f168ed46856a40b32128a2593c2fe5879a3',
+27 silly resolved     _from: 'cnpm@',
+27 silly resolved     _resolved: 'https://registry.npmjs.org/cnpm/-/cnpm-0.1.3.tgz' } ]
+28 info install cnpm@0.1.3 into /usr/local/lib
+29 info installOne cnpm@0.1.3
+30 info /usr/local/lib/node_modules/cnpm unbuild
+31 info preuninstall cnpm@0.0.34
+32 info uninstall cnpm@0.0.34
+33 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cnpm@0.0.34
+34 verbose /usr/local/bin,[object Object] binRoot
+35 info postuninstall cnpm@0.0.34
+36 verbose tar unpack /Users/xiongsongsong/.npm/cnpm/0.1.3/package.tgz
+37 silly lockFile 84a14ca4--usr-local-lib-node-modules-cnpm tar:///usr/local/lib/node_modules/cnpm
+38 verbose lock tar:///usr/local/lib/node_modules/cnpm /Users/xiongsongsong/.npm/84a14ca4--usr-local-lib-node-modules-cnpm.lock
+39 silly lockFile 62359ba8-gsong-npm-cnpm-0-1-3-package-tgz tar:///Users/xiongsongsong/.npm/cnpm/0.1.3/package.tgz
+40 verbose lock tar:///Users/xiongsongsong/.npm/cnpm/0.1.3/package.tgz /Users/xiongsongsong/.npm/62359ba8-gsong-npm-cnpm-0-1-3-package-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry parse_argv.js
+46 silly gunzTarPerm extractEntry origin_npm.js
+47 silly gunzTarPerm extractEntry help.js
+48 silly gunzTarPerm extractEntry utils.js
+49 silly gunzTarPerm extractEntry config.js
+50 silly gunzTarPerm extractEntry AUTHORS
+51 silly gunzTarPerm extractEntry bin/cnpm
+52 silly gunzTarPerm extractEntry bin/cnpm-check
+53 silly gunzTarPerm extractEntry bin/cnpm-doc
+54 silly gunzTarPerm extractEntry bin/cnpm-search
+55 silly gunzTarPerm extractEntry bin/cnpm-sync
+56 silly gunzTarPerm extractEntry bin/cnpm-user
+57 silly gunzTarPerm extractEntry bin/cnpm-web
+58 silly gunzTarPerm extractEntry LICENSE.txt
+59 silly gunzTarPerm extractEntry History.md
+60 silly lockFile 84a14ca4--usr-local-lib-node-modules-cnpm tar:///usr/local/lib/node_modules/cnpm
+61 silly lockFile 84a14ca4--usr-local-lib-node-modules-cnpm tar:///usr/local/lib/node_modules/cnpm
+62 silly lockFile 62359ba8-gsong-npm-cnpm-0-1-3-package-tgz tar:///Users/xiongsongsong/.npm/cnpm/0.1.3/package.tgz
+63 silly lockFile 62359ba8-gsong-npm-cnpm-0-1-3-package-tgz tar:///Users/xiongsongsong/.npm/cnpm/0.1.3/package.tgz
+64 info preinstall cnpm@0.1.3
+65 verbose readDependencies using package.json deps
+66 verbose readDependencies using package.json deps
+67 verbose cache add [ 'auto-correct@~1.0.0', null ]
+68 verbose cache add name=undefined spec="auto-correct@~1.0.0" args=["auto-correct@~1.0.0",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'auto-correct@~1.0.0',
+69 verbose parsed url   path: 'auto-correct@~1.0.0',
+69 verbose parsed url   href: 'auto-correct@~1.0.0' }
+70 verbose cache add name="auto-correct" spec="~1.0.0" args=["auto-correct","~1.0.0"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '~1.0.0',
+71 verbose parsed url   path: '~1.0.0',
+71 verbose parsed url   href: '~1.0.0' }
+72 verbose addNamed [ 'auto-correct', '~1.0.0' ]
+73 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+74 silly lockFile c7d3141c-auto-correct-1-0-0 auto-correct@~1.0.0
+75 verbose lock auto-correct@~1.0.0 /Users/xiongsongsong/.npm/c7d3141c-auto-correct-1-0-0.lock
+76 verbose cache add [ 'bagpipe@~0.3.5', null ]
+77 verbose cache add name=undefined spec="bagpipe@~0.3.5" args=["bagpipe@~0.3.5",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'bagpipe@~0.3.5',
+78 verbose parsed url   path: 'bagpipe@~0.3.5',
+78 verbose parsed url   href: 'bagpipe@~0.3.5' }
+79 verbose cache add name="bagpipe" spec="~0.3.5" args=["bagpipe","~0.3.5"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '~0.3.5',
+80 verbose parsed url   path: '~0.3.5',
+80 verbose parsed url   href: '~0.3.5' }
+81 verbose addNamed [ 'bagpipe', '~0.3.5' ]
+82 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+83 silly lockFile 74ee92da-bagpipe-0-3-5 bagpipe@~0.3.5
+84 verbose lock bagpipe@~0.3.5 /Users/xiongsongsong/.npm/74ee92da-bagpipe-0-3-5.lock
+85 silly addNameRange { name: 'auto-correct',
+85 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+85 silly addNameRange   hasData: false }
+86 verbose cache add [ 'commander@~2.2.0', null ]
+87 verbose cache add name=undefined spec="commander@~2.2.0" args=["commander@~2.2.0",null]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'commander@~2.2.0',
+88 verbose parsed url   path: 'commander@~2.2.0',
+88 verbose parsed url   href: 'commander@~2.2.0' }
+89 verbose cache add name="commander" spec="~2.2.0" args=["commander","~2.2.0"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '~2.2.0',
+90 verbose parsed url   path: '~2.2.0',
+90 verbose parsed url   href: '~2.2.0' }
+91 verbose addNamed [ 'commander', '~2.2.0' ]
+92 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+93 silly lockFile 858b0bdd-commander-2-2-0 commander@~2.2.0
+94 verbose lock commander@~2.2.0 /Users/xiongsongsong/.npm/858b0bdd-commander-2-2-0.lock
+95 verbose cache add [ 'colors@~0.6.2', null ]
+96 verbose cache add name=undefined spec="colors@~0.6.2" args=["colors@~0.6.2",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'colors@~0.6.2',
+97 verbose parsed url   path: 'colors@~0.6.2',
+97 verbose parsed url   href: 'colors@~0.6.2' }
+98 verbose cache add name="colors" spec="~0.6.2" args=["colors","~0.6.2"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '~0.6.2',
+99 verbose parsed url   path: '~0.6.2',
+99 verbose parsed url   href: '~0.6.2' }
+100 verbose addNamed [ 'colors', '~0.6.2' ]
+101 verbose addNamed [ null, '>=0.6.2-0 <0.7.0-0' ]
+102 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+103 verbose lock colors@~0.6.2 /Users/xiongsongsong/.npm/f2380b4d-colors-0-6-2.lock
+104 verbose cache add [ 'debug@~0.8.1', null ]
+105 verbose cache add name=undefined spec="debug@~0.8.1" args=["debug@~0.8.1",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'debug@~0.8.1',
+106 verbose parsed url   path: 'debug@~0.8.1',
+106 verbose parsed url   href: 'debug@~0.8.1' }
+107 verbose cache add name="debug" spec="~0.8.1" args=["debug","~0.8.1"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '~0.8.1',
+108 verbose parsed url   path: '~0.8.1',
+108 verbose parsed url   href: '~0.8.1' }
+109 verbose addNamed [ 'debug', '~0.8.1' ]
+110 verbose addNamed [ null, '>=0.8.1-0 <0.9.0-0' ]
+111 silly lockFile 79150105-debug-0-8-1 debug@~0.8.1
+112 verbose lock debug@~0.8.1 /Users/xiongsongsong/.npm/79150105-debug-0-8-1.lock
+113 verbose url raw auto-correct
+114 verbose url resolving [ 'https://registry.npmjs.org/', './auto-correct' ]
+115 verbose url resolved https://registry.npmjs.org/auto-correct
+116 info trying registry request attempt 1 at 22:25:56
+117 http GET https://registry.npmjs.org/auto-correct
+118 verbose cache add [ 'giturl@~0.0.3', null ]
+119 verbose cache add name=undefined spec="giturl@~0.0.3" args=["giturl@~0.0.3",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: 'giturl@~0.0.3',
+120 verbose parsed url   path: 'giturl@~0.0.3',
+120 verbose parsed url   href: 'giturl@~0.0.3' }
+121 verbose cache add name="giturl" spec="~0.0.3" args=["giturl","~0.0.3"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: '~0.0.3',
+122 verbose parsed url   path: '~0.0.3',
+122 verbose parsed url   href: '~0.0.3' }
+123 verbose addNamed [ 'giturl', '~0.0.3' ]
+124 verbose addNamed [ null, '>=0.0.3-0 <0.1.0-0' ]
+125 silly lockFile 5d9c825e-giturl-0-0-3 giturl@~0.0.3
+126 verbose lock giturl@~0.0.3 /Users/xiongsongsong/.npm/5d9c825e-giturl-0-0-3.lock
+127 verbose cache add [ 'npm@~1.4.10', null ]
+128 verbose cache add name=undefined spec="npm@~1.4.10" args=["npm@~1.4.10",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'npm@~1.4.10',
+129 verbose parsed url   path: 'npm@~1.4.10',
+129 verbose parsed url   href: 'npm@~1.4.10' }
+130 verbose cache add name="npm" spec="~1.4.10" args=["npm","~1.4.10"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '~1.4.10',
+131 verbose parsed url   path: '~1.4.10',
+131 verbose parsed url   href: '~1.4.10' }
+132 verbose addNamed [ 'npm', '~1.4.10' ]
+133 verbose addNamed [ null, '>=1.4.10-0 <1.5.0-0' ]
+134 silly lockFile 8b7ad98f-npm-1-4-10 npm@~1.4.10
+135 verbose lock npm@~1.4.10 /Users/xiongsongsong/.npm/8b7ad98f-npm-1-4-10.lock
+136 verbose cache add [ 'npm-request@~0.0.4', null ]
+137 verbose cache add name=undefined spec="npm-request@~0.0.4" args=["npm-request@~0.0.4",null]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: 'npm-request@~0.0.4',
+138 verbose parsed url   path: 'npm-request@~0.0.4',
+138 verbose parsed url   href: 'npm-request@~0.0.4' }
+139 verbose cache add name="npm-request" spec="~0.0.4" args=["npm-request","~0.0.4"]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '~0.0.4',
+140 verbose parsed url   path: '~0.0.4',
+140 verbose parsed url   href: '~0.0.4' }
+141 verbose addNamed [ 'npm-request', '~0.0.4' ]
+142 verbose addNamed [ null, '>=0.0.4-0 <0.1.0-0' ]
+143 silly lockFile 7b01ea40-npm-request-0-0-4 npm-request@~0.0.4
+144 verbose lock npm-request@~0.0.4 /Users/xiongsongsong/.npm/7b01ea40-npm-request-0-0-4.lock
+145 verbose cache add [ 'open@~0.0.5', null ]
+146 verbose cache add name=undefined spec="open@~0.0.5" args=["open@~0.0.5",null]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'open@~0.0.5',
+147 verbose parsed url   path: 'open@~0.0.5',
+147 verbose parsed url   href: 'open@~0.0.5' }
+148 verbose cache add name="open" spec="~0.0.5" args=["open","~0.0.5"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '~0.0.5',
+149 verbose parsed url   path: '~0.0.5',
+149 verbose parsed url   href: '~0.0.5' }
+150 verbose addNamed [ 'open', '~0.0.5' ]
+151 verbose addNamed [ null, '>=0.0.5-0 <0.1.0-0' ]
+152 silly lockFile 989989ea-open-0-0-5 open@~0.0.5
+153 verbose lock open@~0.0.5 /Users/xiongsongsong/.npm/989989ea-open-0-0-5.lock
+154 verbose cache add [ 'urllib@~0.5.15', null ]
+155 verbose cache add name=undefined spec="urllib@~0.5.15" args=["urllib@~0.5.15",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'urllib@~0.5.15',
+156 verbose parsed url   path: 'urllib@~0.5.15',
+156 verbose parsed url   href: 'urllib@~0.5.15' }
+157 verbose cache add name="urllib" spec="~0.5.15" args=["urllib","~0.5.15"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '~0.5.15',
+158 verbose parsed url   path: '~0.5.15',
+158 verbose parsed url   href: '~0.5.15' }
+159 verbose addNamed [ 'urllib', '~0.5.15' ]
+160 verbose addNamed [ null, '>=0.5.15-0 <0.6.0-0' ]
+161 silly lockFile 685753d4-urllib-0-5-15 urllib@~0.5.15
+162 verbose lock urllib@~0.5.15 /Users/xiongsongsong/.npm/685753d4-urllib-0-5-15.lock
+163 silly addNameRange { name: 'bagpipe', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+164 silly addNameRange { name: 'commander',
+164 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+164 silly addNameRange   hasData: false }
+165 silly addNameRange { name: 'colors', range: '>=0.6.2-0 <0.7.0-0', hasData: false }
+166 silly addNameRange { name: 'debug', range: '>=0.8.1-0 <0.9.0-0', hasData: false }
+167 verbose url raw bagpipe
+168 verbose url resolving [ 'https://registry.npmjs.org/', './bagpipe' ]
+169 verbose url resolved https://registry.npmjs.org/bagpipe
+170 info trying registry request attempt 1 at 22:25:56
+171 http GET https://registry.npmjs.org/bagpipe
+172 silly addNameRange { name: 'giturl', range: '>=0.0.3-0 <0.1.0-0', hasData: false }
+173 silly addNameRange { name: 'npm', range: '>=1.4.10-0 <1.5.0-0', hasData: false }
+174 silly addNameRange { name: 'npm-request',
+174 silly addNameRange   range: '>=0.0.4-0 <0.1.0-0',
+174 silly addNameRange   hasData: false }
+175 silly addNameRange { name: 'open', range: '>=0.0.5-0 <0.1.0-0', hasData: false }
+176 silly addNameRange { name: 'urllib', range: '>=0.5.15-0 <0.6.0-0', hasData: false }
+177 verbose url raw giturl
+178 verbose url resolving [ 'https://registry.npmjs.org/', './giturl' ]
+179 verbose url resolved https://registry.npmjs.org/giturl
+180 info trying registry request attempt 1 at 22:25:56
+181 http GET https://registry.npmjs.org/giturl
+182 verbose url raw npm-request
+183 verbose url resolving [ 'https://registry.npmjs.org/', './npm-request' ]
+184 verbose url resolved https://registry.npmjs.org/npm-request
+185 info trying registry request attempt 1 at 22:25:56
+186 http GET https://registry.npmjs.org/npm-request
+187 verbose url raw open
+188 verbose url resolving [ 'https://registry.npmjs.org/', './open' ]
+189 verbose url resolved https://registry.npmjs.org/open
+190 info trying registry request attempt 1 at 22:25:56
+191 http GET https://registry.npmjs.org/open
+192 verbose url raw urllib
+193 verbose url resolving [ 'https://registry.npmjs.org/', './urllib' ]
+194 verbose url resolved https://registry.npmjs.org/urllib
+195 info trying registry request attempt 1 at 22:25:56
+196 http GET https://registry.npmjs.org/urllib
+197 verbose url raw commander
+198 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+199 verbose url resolved https://registry.npmjs.org/commander
+200 info trying registry request attempt 1 at 22:25:56
+201 verbose etag "BQYRGSXPXYYQI0FLRA3RRMZGN"
+202 http GET https://registry.npmjs.org/commander
+203 verbose url raw colors
+204 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+205 verbose url resolved https://registry.npmjs.org/colors
+206 info trying registry request attempt 1 at 22:25:56
+207 verbose etag "A256MV3735VB0OHB0WUAUPCB9"
+208 http GET https://registry.npmjs.org/colors
+209 verbose url raw debug
+210 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+211 verbose url resolved https://registry.npmjs.org/debug
+212 info trying registry request attempt 1 at 22:25:56
+213 verbose etag "2S4D9TUHX23FL0E3OWJEDXYI4"
+214 http GET https://registry.npmjs.org/debug
+215 verbose url raw npm
+216 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+217 verbose url resolved https://registry.npmjs.org/npm
+218 info trying registry request attempt 1 at 22:25:56
+219 verbose etag "1395455499000"
+220 http GET https://registry.npmjs.org/npm
+221 http 200 https://registry.npmjs.org/npm-request
+222 silly registry.get cb [ 200,
+222 silly registry.get   { date: 'Sat, 17 May 2014 14:25:57 GMT',
+222 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+222 silly registry.get     etag: '"7P126G44D9RMVL5LV17MWW0RO"',
+222 silly registry.get     'content-type': 'application/json',
+222 silly registry.get     via: '1.1 varnish',
+222 silly registry.get     'cache-control': 'max-age=1',
+222 silly registry.get     'content-length': '3357',
+222 silly registry.get     'accept-ranges': 'bytes',
+222 silly registry.get     age: '0',
+222 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-ty68-TYO',
+222 silly registry.get     'x-cache': 'MISS, MISS',
+222 silly registry.get     'x-cache-hits': '0, 0',
+222 silly registry.get     'x-timer': 'S1400336757.150935173,VS0,VS88,VE189,VE273',
+222 silly registry.get     vary: 'Accept',
+222 silly registry.get     'keep-alive': 'timeout=10, max=50',
+222 silly registry.get     connection: 'Keep-Alive' } ]
+223 silly addNameRange number 2 { name: 'npm-request',
+223 silly addNameRange   range: '>=0.0.4-0 <0.1.0-0',
+223 silly addNameRange   hasData: true }
+224 silly addNameRange versions [ 'npm-request', [ '0.0.1', '0.0.3', '0.0.4' ] ]
+225 verbose addNamed [ 'npm-request', '0.0.4' ]
+226 verbose addNamed [ '0.0.4', '0.0.4' ]
+227 silly lockFile 901ac6b5-npm-request-0-0-4 npm-request@0.0.4
+228 verbose lock npm-request@0.0.4 /Users/xiongsongsong/.npm/901ac6b5-npm-request-0-0-4.lock
+229 silly lockFile 901ac6b5-npm-request-0-0-4 npm-request@0.0.4
+230 silly lockFile 901ac6b5-npm-request-0-0-4 npm-request@0.0.4
+231 silly lockFile 7b01ea40-npm-request-0-0-4 npm-request@~0.0.4
+232 silly lockFile 7b01ea40-npm-request-0-0-4 npm-request@~0.0.4
+233 http 200 https://registry.npmjs.org/open
+234 silly registry.get cb [ 200,
+234 silly registry.get   { date: 'Sat, 17 May 2014 14:25:57 GMT',
+234 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+234 silly registry.get     etag: '"45ZVQUO6I050XLG66Y9M0ZTBD"',
+234 silly registry.get     'content-type': 'application/json',
+234 silly registry.get     via: '1.1 varnish',
+234 silly registry.get     'cache-control': 'max-age=1',
+234 silly registry.get     'content-length': '6721',
+234 silly registry.get     'accept-ranges': 'bytes',
+234 silly registry.get     age: '563',
+234 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty66-TYO',
+234 silly registry.get     'x-cache': 'HIT, HIT',
+234 silly registry.get     'x-cache-hits': '1, 1',
+234 silly registry.get     'x-timer': 'S1400234695.898337126,VS0,VS77,VE172,VE102061483',
+234 silly registry.get     vary: 'Accept',
+234 silly registry.get     'keep-alive': 'timeout=10, max=50',
+234 silly registry.get     connection: 'Keep-Alive' } ]
+235 silly addNameRange number 2 { name: 'open', range: '>=0.0.5-0 <0.1.0-0', hasData: true }
+236 silly addNameRange versions [ 'open', [ '0.0.0', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+237 verbose addNamed [ 'open', '0.0.5' ]
+238 verbose addNamed [ '0.0.5', '0.0.5' ]
+239 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+240 verbose lock open@0.0.5 /Users/xiongsongsong/.npm/c6d41519-open-0-0-5.lock
+241 silly lockFile 4dbee10d-ry-npmjs-org-open-open-0-0-5-tgz https://registry.npmjs.org/open/-/open-0.0.5.tgz
+242 verbose lock https://registry.npmjs.org/open/-/open-0.0.5.tgz /Users/xiongsongsong/.npm/4dbee10d-ry-npmjs-org-open-open-0-0-5-tgz.lock
+243 verbose addRemoteTarball [ 'https://registry.npmjs.org/open/-/open-0.0.5.tgz',
+243 verbose addRemoteTarball   '42c3e18ec95466b6bf0dc42f3a2945c3f0cad8fc' ]
+244 info retry fetch attempt 1 at 22:25:57
+245 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz
+246 http GET https://registry.npmjs.org/open/-/open-0.0.5.tgz
+247 http 200 https://registry.npmjs.org/auto-correct
+248 silly registry.get cb [ 200,
+248 silly registry.get   { date: 'Sat, 17 May 2014 14:25:57 GMT',
+248 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+248 silly registry.get     etag: '"AXP37IDVNEC5JYXV9BQRSL8I1"',
+248 silly registry.get     'content-type': 'application/json',
+248 silly registry.get     via: '1.1 varnish',
+248 silly registry.get     'cache-control': 'max-age=1',
+248 silly registry.get     'content-length': '2256',
+248 silly registry.get     'accept-ranges': 'bytes',
+248 silly registry.get     age: '0',
+248 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-ty66-TYO',
+248 silly registry.get     'x-cache': 'MISS, MISS',
+248 silly registry.get     'x-cache-hits': '0, 0',
+248 silly registry.get     'x-timer': 'S1400336757.375829935,VS0,VS91,VE212,VE292',
+248 silly registry.get     vary: 'Accept',
+248 silly registry.get     'keep-alive': 'timeout=10, max=50',
+248 silly registry.get     connection: 'Keep-Alive' } ]
+249 silly addNameRange number 2 { name: 'auto-correct',
+249 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+249 silly addNameRange   hasData: true }
+250 silly addNameRange versions [ 'auto-correct', [ '1.0.0' ] ]
+251 verbose addNamed [ 'auto-correct', '1.0.0' ]
+252 verbose addNamed [ '1.0.0', '1.0.0' ]
+253 silly lockFile 69bd5604-auto-correct-1-0-0 auto-correct@1.0.0
+254 verbose lock auto-correct@1.0.0 /Users/xiongsongsong/.npm/69bd5604-auto-correct-1-0-0.lock
+255 silly lockFile e05af3d2-o-correct-auto-correct-1-0-0-tgz https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz
+256 verbose lock https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz /Users/xiongsongsong/.npm/e05af3d2-o-correct-auto-correct-1-0-0-tgz.lock
+257 verbose addRemoteTarball [ 'https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz',
+257 verbose addRemoteTarball   '9865d9a2c1a7118421f5f0654f685fbeb41b034b' ]
+258 info retry fetch attempt 1 at 22:25:57
+259 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz
+260 http GET https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz
+261 http 200 https://registry.npmjs.org/open/-/open-0.0.5.tgz
+262 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz
+263 silly lockFile 30bd8d9c-gsongsong-npm-open-0-0-5-package tar:///Users/xiongsongsong/.npm/open/0.0.5/package
+264 verbose lock tar:///Users/xiongsongsong/.npm/open/0.0.5/package /Users/xiongsongsong/.npm/30bd8d9c-gsongsong-npm-open-0-0-5-package.lock
+265 silly lockFile 0654fd5c-57586-0-8290875682141632-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz
+266 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz /Users/xiongsongsong/.npm/0654fd5c-57586-0-8290875682141632-tmp-tgz.lock
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm extractEntry package.json
+269 silly gunzTarPerm extractEntry .npmignore
+270 silly gunzTarPerm extractEntry README.md
+271 silly gunzTarPerm extractEntry LICENSE
+272 silly gunzTarPerm extractEntry .jshintignore
+273 silly gunzTarPerm extractEntry .jshintrc
+274 silly gunzTarPerm extractEntry lib/open.js
+275 silly gunzTarPerm extractEntry vendor/xdg-open
+276 silly lockFile 30bd8d9c-gsongsong-npm-open-0-0-5-package tar:///Users/xiongsongsong/.npm/open/0.0.5/package
+277 silly lockFile 30bd8d9c-gsongsong-npm-open-0-0-5-package tar:///Users/xiongsongsong/.npm/open/0.0.5/package
+278 silly lockFile 0654fd5c-57586-0-8290875682141632-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz
+279 silly lockFile 0654fd5c-57586-0-8290875682141632-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757586-0.8290875682141632/tmp.tgz
+280 silly lockFile 4dbee10d-ry-npmjs-org-open-open-0-0-5-tgz https://registry.npmjs.org/open/-/open-0.0.5.tgz
+281 silly lockFile 4dbee10d-ry-npmjs-org-open-open-0-0-5-tgz https://registry.npmjs.org/open/-/open-0.0.5.tgz
+282 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+283 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+284 silly lockFile 989989ea-open-0-0-5 open@~0.0.5
+285 silly lockFile 989989ea-open-0-0-5 open@~0.0.5
+286 http 200 https://registry.npmjs.org/colors
+287 silly registry.get cb [ 200,
+287 silly registry.get   { date: 'Sat, 17 May 2014 14:25:58 GMT',
+287 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+287 silly registry.get     etag: '"94CI62WREPQK016AVN2BE5PLO"',
+287 silly registry.get     'content-type': 'application/json',
+287 silly registry.get     via: '1.1 varnish',
+287 silly registry.get     'cache-control': 'max-age=1',
+287 silly registry.get     'content-length': '8055',
+287 silly registry.get     'accept-ranges': 'bytes',
+287 silly registry.get     age: '22',
+287 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-ty66-TYO',
+287 silly registry.get     'x-cache': 'HIT, MISS',
+287 silly registry.get     'x-cache-hits': '1, 0',
+287 silly registry.get     'x-timer': 'S1400336618.127923489,VS0,VS260,VE356,VE139896',
+287 silly registry.get     vary: 'Accept',
+287 silly registry.get     'keep-alive': 'timeout=10, max=49',
+287 silly registry.get     connection: 'Keep-Alive' } ]
+288 silly addNameRange number 2 { name: 'colors', range: '>=0.6.2-0 <0.7.0-0', hasData: true }
+289 silly addNameRange versions [ 'colors',
+289 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+290 verbose addNamed [ 'colors', '0.6.2' ]
+291 verbose addNamed [ '0.6.2', '0.6.2' ]
+292 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+293 verbose lock colors@0.6.2 /Users/xiongsongsong/.npm/1ce149d5-colors-0-6-2.lock
+294 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+295 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+296 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+297 silly lockFile f2380b4d-colors-0-6-2 colors@~0.6.2
+298 http 200 https://registry.npmjs.org/commander
+299 silly registry.get cb [ 200,
+299 silly registry.get   { date: 'Sat, 17 May 2014 14:25:57 GMT',
+299 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+299 silly registry.get     etag: '"CV23IHZEEK5NHN7YNI695HJ80"',
+299 silly registry.get     'content-type': 'application/json',
+299 silly registry.get     via: '1.1 varnish',
+299 silly registry.get     'cache-control': 'max-age=1',
+299 silly registry.get     'content-length': '39218',
+299 silly registry.get     'accept-ranges': 'bytes',
+299 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty66-TYO',
+299 silly registry.get     'x-cache': 'HIT, MISS',
+299 silly registry.get     'x-cache-hits': '7, 0',
+299 silly registry.get     'x-timer': 'S1400263163.647193670,VS0,VS86,VE86,VE73594101',
+299 silly registry.get     vary: 'Accept',
+299 silly registry.get     'keep-alive': 'timeout=10, max=49',
+299 silly registry.get     connection: 'Keep-Alive' } ]
+300 silly addNameRange number 2 { name: 'commander', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+301 silly addNameRange versions [ 'commander',
+301 silly addNameRange   [ '0.0.1',
+301 silly addNameRange     '0.0.3',
+301 silly addNameRange     '0.0.4',
+301 silly addNameRange     '0.0.5',
+301 silly addNameRange     '0.1.0',
+301 silly addNameRange     '0.2.0',
+301 silly addNameRange     '0.2.1',
+301 silly addNameRange     '0.3.0',
+301 silly addNameRange     '0.3.1',
+301 silly addNameRange     '0.3.2',
+301 silly addNameRange     '0.3.3',
+301 silly addNameRange     '0.4.0',
+301 silly addNameRange     '0.4.1',
+301 silly addNameRange     '0.4.2',
+301 silly addNameRange     '0.4.3',
+301 silly addNameRange     '0.5.0',
+301 silly addNameRange     '0.5.1',
+301 silly addNameRange     '0.6.0',
+301 silly addNameRange     '0.6.1',
+301 silly addNameRange     '0.5.2',
+301 silly addNameRange     '1.0.0',
+301 silly addNameRange     '1.0.1',
+301 silly addNameRange     '1.0.2',
+301 silly addNameRange     '1.0.3',
+301 silly addNameRange     '1.0.4',
+301 silly addNameRange     '1.0.5',
+301 silly addNameRange     '1.1.0',
+301 silly addNameRange     '1.1.1',
+301 silly addNameRange     '1.2.0',
+301 silly addNameRange     '1.3.0',
+301 silly addNameRange     '1.3.1',
+301 silly addNameRange     '1.3.2',
+301 silly addNameRange     '2.0.0',
+301 silly addNameRange     '2.1.0',
+301 silly addNameRange     '2.2.0' ] ]
+302 verbose addNamed [ 'commander', '2.2.0' ]
+303 verbose addNamed [ '2.2.0', '2.2.0' ]
+304 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+305 verbose lock commander@2.2.0 /Users/xiongsongsong/.npm/a636243f-commander-2-2-0.lock
+306 silly lockFile 0e439fcb-rg-commander-commander-2-2-0-tgz https://registry.npmjs.org/commander/-/commander-2.2.0.tgz
+307 verbose lock https://registry.npmjs.org/commander/-/commander-2.2.0.tgz /Users/xiongsongsong/.npm/0e439fcb-rg-commander-commander-2-2-0-tgz.lock
+308 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.2.0.tgz',
+308 verbose addRemoteTarball   '175ad4b9317f3ff615f201c1e57224f55a3e91df' ]
+309 info retry fetch attempt 1 at 22:25:58
+310 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz
+311 http GET https://registry.npmjs.org/commander/-/commander-2.2.0.tgz
+312 http 200 https://registry.npmjs.org/urllib
+313 silly registry.get cb [ 200,
+313 silly registry.get   { date: 'Sat, 17 May 2014 14:25:57 GMT',
+313 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+313 silly registry.get     etag: '"5CHTG6H3DRLW1BCIT9BU85JPZ"',
+313 silly registry.get     'content-type': 'application/json',
+313 silly registry.get     via: '1.1 varnish',
+313 silly registry.get     'cache-control': 'max-age=1',
+313 silly registry.get     'content-length': '73729',
+313 silly registry.get     'accept-ranges': 'bytes',
+313 silly registry.get     age: '1100',
+313 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty68-TYO',
+313 silly registry.get     'x-cache': 'MISS, MISS',
+313 silly registry.get     'x-cache-hits': '0, 0',
+313 silly registry.get     'x-timer': 'S1400336757.531791687,VS0,VS88,VE94,VE179',
+313 silly registry.get     vary: 'Accept',
+313 silly registry.get     'keep-alive': 'timeout=10, max=49',
+313 silly registry.get     connection: 'Keep-Alive' } ]
+314 silly addNameRange number 2 { name: 'urllib', range: '>=0.5.15-0 <0.6.0-0', hasData: true }
+315 silly addNameRange versions [ 'urllib',
+315 silly addNameRange   [ '0.0.1',
+315 silly addNameRange     '0.1.0',
+315 silly addNameRange     '0.2.0',
+315 silly addNameRange     '0.2.1',
+315 silly addNameRange     '0.2.2',
+315 silly addNameRange     '0.2.3',
+315 silly addNameRange     '0.2.4',
+315 silly addNameRange     '0.2.5',
+315 silly addNameRange     '0.2.6',
+315 silly addNameRange     '0.2.7',
+315 silly addNameRange     '0.2.8',
+315 silly addNameRange     '0.2.9',
+315 silly addNameRange     '0.3.0',
+315 silly addNameRange     '0.3.1',
+315 silly addNameRange     '0.3.2',
+315 silly addNameRange     '0.3.3',
+315 silly addNameRange     '0.3.4',
+315 silly addNameRange     '0.3.5',
+315 silly addNameRange     '0.3.6',
+315 silly addNameRange     '0.3.7',
+315 silly addNameRange     '0.3.8',
+315 silly addNameRange     '0.4.0',
+315 silly addNameRange     '0.4.1',
+315 silly addNameRange     '0.4.2',
+315 silly addNameRange     '0.4.3',
+315 silly addNameRange     '0.4.4',
+315 silly addNameRange     '0.5.0',
+315 silly addNameRange     '0.5.1',
+315 silly addNameRange     '0.5.2',
+315 silly addNameRange     '0.5.3',
+315 silly addNameRange     '0.5.4',
+315 silly addNameRange     '0.5.5',
+315 silly addNameRange     '0.5.6',
+315 silly addNameRange     '0.5.8',
+315 silly addNameRange     '0.5.9',
+315 silly addNameRange     '0.5.10',
+315 silly addNameRange     '0.5.11',
+315 silly addNameRange     '0.5.12',
+315 silly addNameRange     '0.5.13',
+315 silly addNameRange     '0.5.14',
+315 silly addNameRange     '0.5.15',
+315 silly addNameRange     '0.5.16' ] ]
+316 verbose addNamed [ 'urllib', '0.5.16' ]
+317 verbose addNamed [ '0.5.16', '0.5.16' ]
+318 silly lockFile a38d019e-urllib-0-5-16 urllib@0.5.16
+319 verbose lock urllib@0.5.16 /Users/xiongsongsong/.npm/a38d019e-urllib-0-5-16.lock
+320 silly lockFile 38282f6f-mjs-org-urllib-urllib-0-5-16-tgz https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz
+321 verbose lock https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz /Users/xiongsongsong/.npm/38282f6f-mjs-org-urllib-urllib-0-5-16-tgz.lock
+322 verbose addRemoteTarball [ 'https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz',
+322 verbose addRemoteTarball   'aa76a4bc5bbd384884a1a893266dd24bced4348d' ]
+323 info retry fetch attempt 1 at 22:25:58
+324 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz
+325 http GET https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz
+326 http 200 https://registry.npmjs.org/debug
+327 silly registry.get cb [ 200,
+327 silly registry.get   { date: 'Sat, 17 May 2014 14:25:58 GMT',
+327 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+327 silly registry.get     etag: '"34MCHRG9G5B3KUGY4R3IYH612"',
+327 silly registry.get     'content-type': 'application/json',
+327 silly registry.get     via: '1.1 varnish',
+327 silly registry.get     'cache-control': 'max-age=1',
+327 silly registry.get     'content-length': '17624',
+327 silly registry.get     'accept-ranges': 'bytes',
+327 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty66-TYO',
+327 silly registry.get     'x-cache': 'HIT, MISS',
+327 silly registry.get     'x-cache-hits': '1, 0',
+327 silly registry.get     'x-timer': 'S1400336657.867610931,VS0,VS81,VE88,VE100506',
+327 silly registry.get     vary: 'Accept',
+327 silly registry.get     'keep-alive': 'timeout=10, max=48',
+327 silly registry.get     connection: 'Keep-Alive' } ]
+328 http 200 https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz
+329 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz
+330 silly lockFile 1e010601-g-npm-auto-correct-1-0-0-package tar:///Users/xiongsongsong/.npm/auto-correct/1.0.0/package
+331 verbose lock tar:///Users/xiongsongsong/.npm/auto-correct/1.0.0/package /Users/xiongsongsong/.npm/1e010601-g-npm-auto-correct-1-0-0-package.lock
+332 silly lockFile 21d52a85-7852-0-01694509177468717-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz
+333 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz /Users/xiongsongsong/.npm/21d52a85-7852-0-01694509177468717-tmp-tgz.lock
+334 silly gunzTarPerm modes [ '755', '644' ]
+335 silly addNameRange number 2 { name: 'debug', range: '>=0.8.1-0 <0.9.0-0', hasData: true }
+336 silly addNameRange versions [ 'debug',
+336 silly addNameRange   [ '0.0.1',
+336 silly addNameRange     '0.1.0',
+336 silly addNameRange     '0.2.0',
+336 silly addNameRange     '0.3.0',
+336 silly addNameRange     '0.4.0',
+336 silly addNameRange     '0.4.1',
+336 silly addNameRange     '0.5.0',
+336 silly addNameRange     '0.6.0',
+336 silly addNameRange     '0.7.0',
+336 silly addNameRange     '0.7.1',
+336 silly addNameRange     '0.7.2',
+336 silly addNameRange     '0.7.3',
+336 silly addNameRange     '0.7.4',
+336 silly addNameRange     '0.8.0',
+336 silly addNameRange     '0.8.1' ] ]
+337 verbose addNamed [ 'debug', '0.8.1' ]
+338 verbose addNamed [ '0.8.1', '0.8.1' ]
+339 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+340 verbose lock debug@0.8.1 /Users/xiongsongsong/.npm/a38530e1-debug-0-8-1.lock
+341 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+342 verbose lock https://registry.npmjs.org/debug/-/debug-0.8.1.tgz /Users/xiongsongsong/.npm/180d0508--npmjs-org-debug-debug-0-8-1-tgz.lock
+343 silly gunzTarPerm extractEntry package.json
+344 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-0.8.1.tgz',
+344 verbose addRemoteTarball   '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130' ]
+345 info retry fetch attempt 1 at 22:25:58
+346 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz
+347 silly gunzTarPerm extractEntry .npmignore
+348 silly gunzTarPerm extractEntry README.md
+349 http GET https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+350 silly gunzTarPerm extractEntry LICENSE
+351 silly gunzTarPerm extractEntry index.js
+352 silly gunzTarPerm extractEntry test.js
+353 silly gunzTarPerm extractEntry .travis.yml
+354 silly gunzTarPerm extractEntry History.md
+355 silly lockFile 1e010601-g-npm-auto-correct-1-0-0-package tar:///Users/xiongsongsong/.npm/auto-correct/1.0.0/package
+356 silly lockFile 1e010601-g-npm-auto-correct-1-0-0-package tar:///Users/xiongsongsong/.npm/auto-correct/1.0.0/package
+357 silly lockFile 21d52a85-7852-0-01694509177468717-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz
+358 silly lockFile 21d52a85-7852-0-01694509177468717-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336757852-0.01694509177468717/tmp.tgz
+359 silly lockFile e05af3d2-o-correct-auto-correct-1-0-0-tgz https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz
+360 silly lockFile e05af3d2-o-correct-auto-correct-1-0-0-tgz https://registry.npmjs.org/auto-correct/-/auto-correct-1.0.0.tgz
+361 silly lockFile 69bd5604-auto-correct-1-0-0 auto-correct@1.0.0
+362 silly lockFile 69bd5604-auto-correct-1-0-0 auto-correct@1.0.0
+363 silly lockFile c7d3141c-auto-correct-1-0-0 auto-correct@~1.0.0
+364 silly lockFile c7d3141c-auto-correct-1-0-0 auto-correct@~1.0.0
+365 http 200 https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz
+366 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz
+367 silly lockFile 5cb530bc-ngsong-npm-urllib-0-5-16-package tar:///Users/xiongsongsong/.npm/urllib/0.5.16/package
+368 verbose lock tar:///Users/xiongsongsong/.npm/urllib/0.5.16/package /Users/xiongsongsong/.npm/5cb530bc-ngsong-npm-urllib-0-5-16-package.lock
+369 silly lockFile cd91bc4a-758533-0-708076715702191-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz
+370 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz /Users/xiongsongsong/.npm/cd91bc4a-758533-0-708076715702191-tmp-tgz.lock
+371 silly gunzTarPerm modes [ '755', '644' ]
+372 silly gunzTarPerm extractEntry package.json
+373 silly gunzTarPerm extractEntry .npmignore
+374 silly gunzTarPerm extractEntry README.md
+375 silly gunzTarPerm extractEntry LICENSE
+376 silly gunzTarPerm extractEntry index.js
+377 silly gunzTarPerm extractEntry AUTHORS
+378 silly gunzTarPerm extractEntry History.md
+379 silly gunzTarPerm extractEntry lib/urllib.js
+380 silly lockFile 5cb530bc-ngsong-npm-urllib-0-5-16-package tar:///Users/xiongsongsong/.npm/urllib/0.5.16/package
+381 silly lockFile 5cb530bc-ngsong-npm-urllib-0-5-16-package tar:///Users/xiongsongsong/.npm/urllib/0.5.16/package
+382 silly lockFile cd91bc4a-758533-0-708076715702191-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz
+383 silly lockFile cd91bc4a-758533-0-708076715702191-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758533-0.708076715702191/tmp.tgz
+384 silly lockFile 38282f6f-mjs-org-urllib-urllib-0-5-16-tgz https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz
+385 silly lockFile 38282f6f-mjs-org-urllib-urllib-0-5-16-tgz https://registry.npmjs.org/urllib/-/urllib-0.5.16.tgz
+386 silly lockFile a38d019e-urllib-0-5-16 urllib@0.5.16
+387 silly lockFile a38d019e-urllib-0-5-16 urllib@0.5.16
+388 silly lockFile 685753d4-urllib-0-5-15 urllib@~0.5.15
+389 silly lockFile 685753d4-urllib-0-5-15 urllib@~0.5.15
+390 http 200 https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+391 http 200 https://registry.npmjs.org/giturl
+392 silly registry.get cb [ 200,
+392 silly registry.get   { date: 'Sat, 17 May 2014 14:25:58 GMT',
+392 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+392 silly registry.get     etag: '"5SQWG4K8O1TUXX4ANGHKSSNCU"',
+392 silly registry.get     'content-type': 'application/json',
+392 silly registry.get     via: '1.1 varnish',
+392 silly registry.get     'cache-control': 'max-age=1',
+392 silly registry.get     'content-length': '7714',
+392 silly registry.get     'accept-ranges': 'bytes',
+392 silly registry.get     age: '0',
+392 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-ty68-TYO',
+392 silly registry.get     'x-cache': 'MISS, MISS',
+392 silly registry.get     'x-cache-hits': '0, 0',
+392 silly registry.get     'x-timer': 'S1400336758.591773510,VS0,VS86,VE184,VE263',
+392 silly registry.get     vary: 'Accept',
+392 silly registry.get     'keep-alive': 'timeout=10, max=50',
+392 silly registry.get     connection: 'Keep-Alive' } ]
+393 silly addNameRange number 2 { name: 'giturl', range: '>=0.0.3-0 <0.1.0-0', hasData: true }
+394 silly addNameRange versions [ 'giturl', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+395 verbose addNamed [ 'giturl', '0.0.3' ]
+396 verbose addNamed [ '0.0.3', '0.0.3' ]
+397 silly lockFile e1efb6d0-giturl-0-0-3 giturl@0.0.3
+398 verbose lock giturl@0.0.3 /Users/xiongsongsong/.npm/e1efb6d0-giturl-0-0-3.lock
+399 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz
+400 silly lockFile c2042359-songsong-npm-debug-0-8-1-package tar:///Users/xiongsongsong/.npm/debug/0.8.1/package
+401 verbose lock tar:///Users/xiongsongsong/.npm/debug/0.8.1/package /Users/xiongsongsong/.npm/c2042359-songsong-npm-debug-0-8-1-package.lock
+402 silly lockFile 805ef572-8722-0-15993856079876423-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz
+403 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz /Users/xiongsongsong/.npm/805ef572-8722-0-15993856079876423-tmp-tgz.lock
+404 silly lockFile 05ca0077-pmjs-org-giturl-giturl-0-0-3-tgz https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz
+405 verbose lock https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz /Users/xiongsongsong/.npm/05ca0077-pmjs-org-giturl-giturl-0-0-3-tgz.lock
+406 silly gunzTarPerm modes [ '755', '644' ]
+407 verbose addRemoteTarball [ 'https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz',
+407 verbose addRemoteTarball   '0454fdffe517dac0d422a689de11adf924ee737a' ]
+408 info retry fetch attempt 1 at 22:25:59
+409 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz
+410 http GET https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz
+411 silly gunzTarPerm extractEntry package.json
+412 silly gunzTarPerm extractEntry debug.js
+413 silly gunzTarPerm extractEntry Readme.md
+414 silly gunzTarPerm extractEntry lib/debug.js
+415 silly lockFile c2042359-songsong-npm-debug-0-8-1-package tar:///Users/xiongsongsong/.npm/debug/0.8.1/package
+416 silly lockFile c2042359-songsong-npm-debug-0-8-1-package tar:///Users/xiongsongsong/.npm/debug/0.8.1/package
+417 silly lockFile 805ef572-8722-0-15993856079876423-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz
+418 silly lockFile 805ef572-8722-0-15993856079876423-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758722-0.15993856079876423/tmp.tgz
+419 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+420 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+421 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+422 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+423 silly lockFile 79150105-debug-0-8-1 debug@~0.8.1
+424 silly lockFile 79150105-debug-0-8-1 debug@~0.8.1
+425 http 200 https://registry.npmjs.org/commander/-/commander-2.2.0.tgz
+426 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz
+427 silly lockFile b606c10f-song-npm-commander-2-2-0-package tar:///Users/xiongsongsong/.npm/commander/2.2.0/package
+428 verbose lock tar:///Users/xiongsongsong/.npm/commander/2.2.0/package /Users/xiongsongsong/.npm/b606c10f-song-npm-commander-2-2-0-package.lock
+429 silly lockFile c3a1a718-758372-0-586276053218171-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz
+430 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz /Users/xiongsongsong/.npm/c3a1a718-758372-0-586276053218171-tmp-tgz.lock
+431 silly gunzTarPerm modes [ '755', '644' ]
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm extractEntry index.js
+434 silly gunzTarPerm extractEntry Readme.md
+435 silly lockFile b606c10f-song-npm-commander-2-2-0-package tar:///Users/xiongsongsong/.npm/commander/2.2.0/package
+436 silly lockFile b606c10f-song-npm-commander-2-2-0-package tar:///Users/xiongsongsong/.npm/commander/2.2.0/package
+437 silly lockFile c3a1a718-758372-0-586276053218171-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz
+438 silly lockFile c3a1a718-758372-0-586276053218171-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336758372-0.586276053218171/tmp.tgz
+439 silly lockFile 0e439fcb-rg-commander-commander-2-2-0-tgz https://registry.npmjs.org/commander/-/commander-2.2.0.tgz
+440 silly lockFile 0e439fcb-rg-commander-commander-2-2-0-tgz https://registry.npmjs.org/commander/-/commander-2.2.0.tgz
+441 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+442 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+443 silly lockFile 858b0bdd-commander-2-2-0 commander@~2.2.0
+444 silly lockFile 858b0bdd-commander-2-2-0 commander@~2.2.0
+445 http 200 https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz
+446 verbose tar unpack /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz
+447 silly lockFile e821915d-ongsong-npm-giturl-0-0-3-package tar:///Users/xiongsongsong/.npm/giturl/0.0.3/package
+448 verbose lock tar:///Users/xiongsongsong/.npm/giturl/0.0.3/package /Users/xiongsongsong/.npm/e821915d-ongsong-npm-giturl-0-0-3-package.lock
+449 silly lockFile 4b06b2f4-59162-0-2017357109580189-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz
+450 verbose lock tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz /Users/xiongsongsong/.npm/4b06b2f4-59162-0-2017357109580189-tmp-tgz.lock
+451 silly gunzTarPerm modes [ '755', '644' ]
+452 silly gunzTarPerm extractEntry package.json
+453 silly gunzTarPerm extractEntry .npmignore
+454 silly gunzTarPerm extractEntry README.md
+455 silly gunzTarPerm extractEntry index.js
+456 silly gunzTarPerm extractEntry AUTHORS
+457 silly gunzTarPerm extractEntry History.md
+458 silly gunzTarPerm extractEntry LICENSE.txt
+459 silly gunzTarPerm extractEntry lib/giturl.js
+460 silly lockFile e821915d-ongsong-npm-giturl-0-0-3-package tar:///Users/xiongsongsong/.npm/giturl/0.0.3/package
+461 silly lockFile e821915d-ongsong-npm-giturl-0-0-3-package tar:///Users/xiongsongsong/.npm/giturl/0.0.3/package
+462 silly lockFile 4b06b2f4-59162-0-2017357109580189-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz
+463 silly lockFile 4b06b2f4-59162-0-2017357109580189-tmp-tgz tar:///Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336759162-0.2017357109580189/tmp.tgz
+464 silly lockFile 05ca0077-pmjs-org-giturl-giturl-0-0-3-tgz https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz
+465 silly lockFile 05ca0077-pmjs-org-giturl-giturl-0-0-3-tgz https://registry.npmjs.org/giturl/-/giturl-0.0.3.tgz
+466 silly lockFile e1efb6d0-giturl-0-0-3 giturl@0.0.3
+467 silly lockFile e1efb6d0-giturl-0-0-3 giturl@0.0.3
+468 silly lockFile 5d9c825e-giturl-0-0-3 giturl@~0.0.3
+469 silly lockFile 5d9c825e-giturl-0-0-3 giturl@~0.0.3
+470 http 200 https://registry.npmjs.org/npm
+471 silly registry.get cb [ 200,
+471 silly registry.get   { date: 'Sat, 17 May 2014 14:25:59 GMT',
+471 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+471 silly registry.get     etag: '"D2DVJAHD8QDXIV9NPSQQ8G7Y0"',
+471 silly registry.get     'content-type': 'application/json',
+471 silly registry.get     via: '1.1 varnish',
+471 silly registry.get     'cache-control': 'max-age=1',
+471 silly registry.get     'content-length': '829976',
+471 silly registry.get     'accept-ranges': 'bytes',
+471 silly registry.get     age: '21',
+471 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-ty66-TYO',
+471 silly registry.get     'x-cache': 'HIT, MISS',
+471 silly registry.get     'x-cache-hits': '1, 0',
+471 silly registry.get     'x-timer': 'S1400336758.362332821,VS0,VS89,VE187,VE1187',
+471 silly registry.get     vary: 'Accept',
+471 silly registry.get     'keep-alive': 'timeout=10, max=48',
+471 silly registry.get     connection: 'Keep-Alive' } ]
+472 silly addNameRange number 2 { name: 'npm', range: '>=1.4.10-0 <1.5.0-0', hasData: true }
+473 silly addNameRange versions [ 'npm',
+473 silly addNameRange   [ '1.1.25',
+473 silly addNameRange     '1.2.32',
+473 silly addNameRange     '1.3.2',
+473 silly addNameRange     '1.3.4',
+473 silly addNameRange     '1.2.20',
+473 silly addNameRange     '1.2.21',
+473 silly addNameRange     '1.2.22',
+473 silly addNameRange     '1.2.23',
+473 silly addNameRange     '1.2.24',
+473 silly addNameRange     '1.2.25',
+473 silly addNameRange     '1.2.27',
+473 silly addNameRange     '1.2.28',
+473 silly addNameRange     '1.2.30',
+473 silly addNameRange     '1.2.31',
+473 silly addNameRange     '1.3.0',
+473 silly addNameRange     '1.3.1',
+473 silly addNameRange     '1.2.19',
+473 silly addNameRange     '1.1.70',
+473 silly addNameRange     '1.1.71',
+473 silly addNameRange     '1.3.5',
+473 silly addNameRange     '1.3.6',
+473 silly addNameRange     '1.3.7',
+473 silly addNameRange     '1.3.8',
+473 silly addNameRange     '1.3.9',
+473 silly addNameRange     '1.3.10',
+473 silly addNameRange     '1.3.11',
+473 silly addNameRange     '1.3.12',
+473 silly addNameRange     '1.3.13',
+473 silly addNameRange     '1.3.14',
+473 silly addNameRange     '1.3.15',
+473 silly addNameRange     '1.3.16',
+473 silly addNameRange     '1.3.17',
+473 silly addNameRange     '1.3.18',
+473 silly addNameRange     '1.3.20',
+473 silly addNameRange     '1.3.21',
+473 silly addNameRange     '1.3.22',
+473 silly addNameRange     '1.3.23',
+473 silly addNameRange     '1.3.24',
+473 silly addNameRange     '1.3.25',
+473 silly addNameRange     '1.3.26',
+473 silly addNameRange     '1.4.0',
+473 silly addNameRange     '1.4.1',
+473 silly addNameRange     '1.4.2',
+473 silly addNameRange     '1.4.3',
+473 silly addNameRange     '1.4.4',
+473 silly addNameRange     '1.4.5',
+473 silly addNameRange     '1.4.6',
+473 silly addNameRange     '1.4.7',
+473 silly addNameRange     '1.4.8',
+473 silly addNameRange     '1.4.9',
+473 silly addNameRange     '1.4.10' ] ]
+474 verbose addNamed [ 'npm', '1.4.10' ]
+475 verbose addNamed [ '1.4.10', '1.4.10' ]
+476 silly lockFile 2418b2fc-npm-1-4-10 npm@1.4.10
+477 verbose lock npm@1.4.10 /Users/xiongsongsong/.npm/2418b2fc-npm-1-4-10.lock
+478 silly lockFile 5fc22dd3-try-npmjs-org-npm-npm-1-4-10-tgz https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+479 verbose lock https://registry.npmjs.org/npm/-/npm-1.4.10.tgz /Users/xiongsongsong/.npm/5fc22dd3-try-npmjs-org-npm-npm-1-4-10-tgz.lock
+480 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.4.10.tgz',
+480 verbose addRemoteTarball   '4f8edd5e8cfb55cd2755ac6505593c2b4d5510f8' ]
+481 info retry fetch attempt 1 at 22:26:10
+482 verbose fetch to= /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336770514-0.3292121635749936/tmp.tgz
+483 http GET https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+484 http 200 https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+485 silly lockFile 5fc22dd3-try-npmjs-org-npm-npm-1-4-10-tgz https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+486 silly lockFile 5fc22dd3-try-npmjs-org-npm-npm-1-4-10-tgz https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+487 silly lockFile 2418b2fc-npm-1-4-10 npm@1.4.10
+488 silly lockFile 2418b2fc-npm-1-4-10 npm@1.4.10
+489 silly lockFile 8b7ad98f-npm-1-4-10 npm@~1.4.10
+490 silly lockFile 8b7ad98f-npm-1-4-10 npm@~1.4.10
+491 verbose about to build /usr/local/lib/node_modules/cnpm
+492 info /usr/local/lib/node_modules/cnpm unbuild
+493 info preuninstall cnpm@0.1.3
+494 info uninstall cnpm@0.1.3
+495 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cnpm@0.1.3
+496 verbose /usr/local/bin,[object Object] binRoot
+497 info postuninstall cnpm@0.1.3
+498 error Error: shasum check failed for /Users/xiongsongsong/tmp/npm-32448-gIYFbk5F/1400336770514-0.3292121635749936/tmp.tgz
+498 error Expected: 4f8edd5e8cfb55cd2755ac6505593c2b4d5510f8
+498 error Actual:   bb1baaeaf28a5d3b672467e97fcca09eca160dbc
+498 error From:     https://registry.npmjs.org/npm/-/npm-1.4.10.tgz
+498 error     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:38:8
+498 error     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:85:7)
+498 error     at ReadStream.EventEmitter.emit (events.js:117:20)
+498 error     at _stream_readable.js:919:16
+498 error     at process._tickCallback (node.js:419:13)
+499 error If you need help, you may report this *entire* log,
+499 error including the npm and node versions, at:
+499 error     <http://github.com/npm/npm/issues>
+500 error System Darwin 13.1.0
+501 error command "node" "/usr/local/bin/npm" "install" "cnpm" "-g"
+502 error cwd /Users/xiongsongsong/mysite
+503 error node -v v0.10.28
+504 error npm -v 1.4.9
+505 verbose exit [ 1, true ]
