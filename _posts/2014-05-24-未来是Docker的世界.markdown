@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "云服务的包管理器"
+date:   2014-05-24
+categories: full-stack
+---
+
+## 关于镜像
+
+相当一部分人，都有过使用Ghost的经历。他带来的好处是降低维护成本，当系统坏掉，我可以将系统恢复到原始状态。
+
+做Ghost备份的时候，因人的习惯不同，大概有2种处理方式。
+
+1. 安装裸系统并安全所有官方补丁到最新。
+2. 在第一种的基础上，再安装一些常用办公软件，如Office、QQ、浏览器、输入法。
+
+第一种其实已经很接近云计算中的PaaS（Platform as a Service，平台即服务）模式。提供一个平台，但运行的软件，需要用户自己去安装。
+而第二种类似于SaaS（Software as a Service，软件即服务），处在PaaS上端。
+
+而在服务器端，也会遇到类似的场景。例如：使用wordPress的前提条件是安装好Apache、PHP、MySQL等环境。
+不能要求所有人即知道怎么使用wordPress，又熟悉AMP环境的配置。专业的事情，需要专业的人或团队去做。
+
+可见，PaaS也好，SaaS也罢，他们的初始化、维护，都是需要成本的。
+对于用户来讲，他们希望付出的时间越少越好，最好是在分分钟内搞定一套新环境初始化作业。
+
+而Docker天生就是为了PaaS和SaaS而生的，至少有以下3个优点：
+
+1. 不像Vmware等需要虚拟化一层硬件，Docker直接用宿主的资源，性能优异，耗费资源更少。
+2. 所有操作基于命令行。意味着可以完成一个web应用，来自助实现虚拟机的创建、快照、共享镜像等。
+3. 操作系统运行在完全隔离的沙箱中，不会有任何的阉割（Google的AppEngine会阻止python、java调用）。
+
+例如搭建Gitlab服务，临时性使用gcc4.8.1，获得node-0.11环境，这些都可以在[Docker镜像](https://index.docker.io/)中找到。
+当然也可以自己提交一个镜像，在其中进行特别的调优，发布到官方或私有系统中，方便下次使用。
+
+前几天刚刚遇到一个问题，关于应用的兼容性。一个2012年创建的应用，需要转移到一台ubuntu服务器上，该主机已经运行了3个应用。当迁移过来的时候，
+发现所依赖的libpng库不兼容。因为担心修改libpng会引起当前3个应用的稳定性。因此使用了Docker，来单独运行迁移过来的应用。
+
+## 镜像是云服务趋向于成熟的标志
+
+模块的最终目的是方便组装，这意味着灵活性。在[玉伯的这条微博](http://weibo.com/1748374882/B5FyuyKCf)中有这么一张图片：
+
+<img src="/img/module.png" alt="brew install node,npm install spm,spm install bower,bower install node" class="content-img" />
+
+可见，一旦包管理规范、约束一旦建立，对使用者来讲，将带来巨大的便利性。在各种*inux发行版中，有各种包管理器，如yum、apt-get、brew等等，他们提供应用及别的包管理。
+而如今，Docker提供操作系统级别的包管理。
+
+今年4月，亚马逊[Amazon EC2提供对Docker的支持](http://aws.amazon.com/cn/about-aws/whats-new/2014/04/23/aws-elastic-beanstalk-adds-docker-support/)，
+紧跟着5月，[阿里云的镜像市场发布](http://market.aliyun.com/image/)。这意味着操作系统级别的包管理器应用将日趋广泛。
+
+## 结语
+
+Docker拥有将一台机器打造成PaaS（平台即服务）、SaaS（软件即服务）的能力。这能节约成本，提高机器利用率。
+
+## 扩展阅读
+
+* 本文无力谈到aaS（Infrastructure as a Service，基础设施即服务），他是PaaS或SaaS的基础，其复杂性可阅读此篇文章：[左耳朵耗子谈云计算：拼的就是运维](http://www.infoq.com/cn/articles/chenhao-on-cloud)
+
+* Docker的特点及应用的介绍：[Docker：利用Linux容器实现可移植的应用部署](http://www.infoq.com/cn/articles/docker-containers)
