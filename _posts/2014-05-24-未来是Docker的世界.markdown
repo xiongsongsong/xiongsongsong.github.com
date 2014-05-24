@@ -2,7 +2,7 @@
 layout: post
 title:  "云服务的包管理器"
 date:   2014-05-24
-categories: full-stack
+categories: paas-saas
 ---
 
 ## 关于镜像
