@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "云服务的包管理器"
+title:  "Docker-云服务的包管理器"
 date:   2014-05-24
-categories: paas-saas
+categories: docker
 ---
 
 ## 关于镜像
