@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
-    background-color: #fdfdfd;
+    background-color: #f3f3f3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,7 +65,6 @@ a:visited {
     border-top: 5px solid #333;
     border-bottom: 1px solid #e8e8e8;
     min-height: 56px;
-    background-color: white;
 }
 
 .site-title,
@@ -166,7 +165,7 @@ a:visited {
 
 .page-content {
     padding: 30px 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 /* Home styles */
