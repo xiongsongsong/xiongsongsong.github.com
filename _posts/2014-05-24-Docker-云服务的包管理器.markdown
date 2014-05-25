@@ -53,6 +53,6 @@ Docker拥有将一台机器打造成PaaS（平台即服务）、SaaS（软件即
 
 ## 扩展阅读
 
-* 本文无力谈到aaS（Infrastructure as a Service，基础设施即服务），他是PaaS或SaaS的基础，其复杂性可阅读此篇文章：[左耳朵耗子谈云计算：拼的就是运维](http://www.infoq.com/cn/articles/chenhao-on-cloud)
+* 本文无力谈到IaaS（Infrastructure as a Service，基础设施即服务），他是PaaS或SaaS的基础，其复杂性可阅读此篇文章：[左耳朵耗子谈云计算：拼的就是运维](http://www.infoq.com/cn/articles/chenhao-on-cloud)
 
 * Docker的特点及应用的介绍：[Docker：利用Linux容器实现可移植的应用部署](http://www.infoq.com/cn/articles/docker-containers)
