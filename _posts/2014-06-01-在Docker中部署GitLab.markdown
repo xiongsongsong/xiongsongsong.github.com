@@ -10,7 +10,7 @@ categories: gitlab
 越来越多的团队，开始使用GitLab来管理项目，相比于SVN来说，GitLab更能满足开发者的需求，界面也更加美观。然而，搭建好GitLab并非易事。你需要准备相当多的工作，即是如此，仍可能会遇到各种问题。
 而如今Docker这种技术的发展，让GitLab的搭建简单了很多，你只需要专注于如何进行配置和使用即可。
 
-本文翻译自：https://index.docker.io/u/sameersbn/gitlab/，翻译的目的源于2个好处，一是了解Docker中是如何部署应用的，由于GitLab的安装环境比较复杂，因此是一个很好的学习点。二来，也方便未来能自助的搭建一个GitLab应用，相当多的团队已经在这么做了。
+本文翻译自：[https://index.docker.io/u/sameersbn/gitlab/](https://index.docker.io/u/sameersbn/gitlab/) ，翻译的目的源于2个好处，一是了解Docker中是如何部署应用的，由于GitLab的安装环境比较复杂，因此是一个很好的学习点。二来，也方便未来能自助的搭建一个GitLab应用，相当多的团队已经在这么做了。
 
 --------------------------------
 
