@@ -74,7 +74,7 @@ docker pull sameersbn/gitlab:6.9.2
 
 {% highlight bash %}
 
-bash git clone https://github.com/sameersbn/docker-gitlab.git cd docker-gitlab docker build --tag="$USER/gitlab" .
+git clone https://github.com/sameersbn/docker-gitlab.git cd docker-gitlab docker build --tag="$USER/gitlab" .
 
 {% endhighlight %}
 ## 快速起步
@@ -143,7 +143,7 @@ sql CREATE USER 'gitlab'@'%.%.%.%' IDENTIFIED BY 'password'; CREATE DATABASE IF 
 
 {% highlight bash %}
 
-bash docker run --name=gitlab -i -t --rm \ -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2 app:rake gitlab:setup
+docker run --name=gitlab -i -t --rm \ -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2 app:rake gitlab:setup
 
 {% endhighlight %}
 > 提醒: 仅在第一次运行时使用上述设置
@@ -151,7 +151,7 @@ bash docker run --name=gitlab -i -t --rm \ -e "DB_HOST=192.168.1.100" -e "DB_NAM
 这将完成GitLab数据库的初始化，现在，正常启动容器。
 {% highlight bash %}
 
-bash docker run --name=gitlab -d \ -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2
+docker run --name=gitlab -d \ -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2
 
 {% endhighlight %}
 
@@ -227,7 +227,7 @@ docker run --name=gitlab -i -t --rm \ -e "DB_TYPE=postgres" -e "DB_HOST=192.168.
 
 {% highlight bash %}
 
-bash docker run --name=gitlab -d \ -e "DB_TYPE=postgres" -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2
+docker run --name=gitlab -d \ -e "DB_TYPE=postgres" -e "DB_HOST=192.168.1.100" -e "DB_NAME=gitlabhq_production" -e "DB_USER=gitlab" -e "DB_PASS=password" \ -v /opt/gitlab/data:/home/git/data \ sameersbn/gitlab:6.9.2
 
 {% endhighlight %}
 
@@ -310,7 +310,7 @@ GitLab镜像，可配置为使用外部的Redis服务，从而避免使用内部
 
 {% highlight bash %}
 
-bash docker run --name=gitlab -i -t --rm \ -e "REDIS_HOST=192.168.1.100" -e "REDIS_PORT=6379" \ sameersbn/gitlab:6.9.2
+docker run --name=gitlab -i -t --rm \ -e "REDIS_HOST=192.168.1.100" -e "REDIS_PORT=6379" \ sameersbn/gitlab:6.9.2
 
 {% endhighlight %}
 
@@ -387,7 +387,7 @@ docker run --name=gitlab -d \ -e "SMTP_USER=USER@gmail.com" -e "SMTP_PASS=PASSWO
 本章节为您提供指导，以[加强服务器的安全性](https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html)。为了实现这一目标，我们需要更强有力的DHE参数：
 {% highlight bash %}
 
-bash openssl dhparam -out dhparam.pem 2048
+openssl dhparam -out dhparam.pem 2048
 
 {% endhighlight %}
 
@@ -649,13 +649,13 @@ docker run --name=gitlab -d [OPTIONS] sameersbn/gitlab:6.9.2
 ```app:rake```命令允许您运行gitlab rake任务。要运行rake任务，只需要指定要执行的应用程序的任务：```app：rake```即可。例如，手机GitLab的运行时信息：
 {% highlight bash %}
 
-bash docker run --name=gitlab -d [OPTIONS] \ sameersbn/gitlab:6.9.2 app:rake gitlab:env:info
+docker run --name=gitlab -d [OPTIONS] \ sameersbn/gitlab:6.9.2 app:rake gitlab:env:info
 
 {% endhighlight %}
 同样，导入一个空仓库到GitLab中：
 {% highlight bash %}
 
-bash docker run --name=gitlab -d [OPTIONS] \ sameersbn/gitlab:6.9.2 app:rake gitlab:import:repos
+docker run --name=gitlab -d [OPTIONS] \ sameersbn/gitlab:6.9.2 app:rake gitlab:import:repos
 
 {% endhighlight %}
 
