@@ -344,7 +344,7 @@ docker run --name=gitlab -d --link redis:redisio \ sameersbn/gitlab:6.9.2
 
 ### 邮件
 
-在启动GitLab时，通过设置环境变量来指定邮件配置。默认被配置为试用Gmail来发送右键，因此，需要一个有效的用户名和密码来登陆到Gmail服务器上。
+在启动GitLab时，通过设置环境变量来指定邮件配置。默认被配置为试用Gmail来发送邮件，因此，需要一个有效的用户名和密码来登陆到Gmail服务器上。
 
 需要设置好下方的环境变量，来提供邮件支持：
 
