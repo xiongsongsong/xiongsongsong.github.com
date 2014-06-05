@@ -32,4 +32,5 @@
 
 ## 推荐阅读
 
+* The Swift Programming Language：[中文](http://numbbbbb.github.io/the-swift-programming-language-in-chinese/)  [英文](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/)
 * 动态语言性能不再是问题： [编程珠玑番外篇之番外篇-O 中间语言和虚拟机漫谈](http://blog.youxu.info/2014/05/11/language-and-vm/)
